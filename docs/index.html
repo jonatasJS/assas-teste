@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastre</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="pen-title">
+    <h1>Material Login Form</h1> <!-- <span>Pen <i class='fa fa-code'></i> by <a href='http://andytran.me'>Andy Tran</a></span> -->
+  </div>
+  <div class="rerun"><a href="">Rerun Pen</a></div>
+  <div class="container">
+    <div class="card"></div>
+    <div class="card">
+      <h1 class="title">Login</h1>
+      <form>
+        <div class="input-container">
+          <input type="#{type}" id="#{label}" required="required"/>
+          <label for="#{label}">Username</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="#{type}" id="#{label}" required="required"/>
+          <label for="#{label}">Password</label>
+          <div class="bar"></div>
+        </div>
+        <div class="button-container">
+          <button><span>Go</span></button>
+        </div>
+        <div class="footer"><a href="#">Forgot your password?</a></div>
+      </form>
+    </div>
+    <div class="card alt">
+      <div class="toggle"></div>
+      <h1 class="title">Register
+        <div class="close"></div>
+      </h1>
+      <form>
+        <div class="input-container">
+          <input type="text" id="text" required="required"/>
+          <label for="text">Username</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="email" id="email" required="required"/>
+          <label for="email">Email</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="tel" id="phone" required="required"/>
+          <label for="phone">Phone</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="number" id="cpfCnpj" required="required"/>
+          <label for="cpfCnpj">CPF/CNPJ</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="number" id="postalCode" required="required"/>
+          <label for="postalCode">Postal Code</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="text" id="address" required="required"/>
+          <label for="address">Address</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="number" id="addressNumber" />
+          <label for="addressNumber">Address Number</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="text" id="complement" />
+          <label for="complement">Complement</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="text" id="province" required="required"/>
+          <label for="province">Province</label>
+          <div class="bar"></div>
+        </div>
+        <div class="input-container">
+          <input type="radio" id="notificationDisabled" />
+          <label for="notificationDisabled">Notification</label>
+          <div class="bar"></div>
+        </div>
+        <div class="button-container">
+          <button id="register"><span>Next</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <!-- Portfolio <a id="portfolio" href="http://andytran.me/" title="View my portfolio!"><i class="fa fa-link"></i></a> -->
+  <!-- CodePen <a id="codepen" href="https://codepen.io/andytran/" title="Follow me!"><i class="fa fa-codepen"></i></a> -->
+</body>
+</html>
