@@ -30,7 +30,7 @@ $("#register").on("click", async function () {
 
   const config = {
     method: "post",
-    url: "http://www.asaas.com/api/v3/customers",
+    url: "httpS://www.asaas.com/api/v3/customers",
     headers: {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
