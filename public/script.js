@@ -60,13 +60,18 @@ $("#register").on("click", async function () {
 
   const config = {
     method: "post",
-    url: "https://www.asaas.com/api/v3/customers",
+    url: "http://www.asaas.com/api/v3/customers",
     headers: {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
+<<<<<<< HEAD
       access_token:
         "21a839185242fa630fe8486c85ef71d2e1f86447ca58952b1d5d377fa1207d33",
       Accept: "*/*",
+=======
+      "access_token":
+        "65ed80cd7ab8eed04a1bd880baf59f76b88bbdb387490f2ce876e5e90cb980a2",
+>>>>>>> 45a55598cf80eaf23b2b00b2cfa9eff800d862d5
     },
     data,
   };
